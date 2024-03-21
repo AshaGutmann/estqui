@@ -1,0 +1,36 @@
+{
+  "name": "estqui",
+  "version": "1.9.0",
+  "description": "Javascript browser utilities for Early Buddhist Texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:verbose",
+    "test:test": "mocha -w -R min --inline-diffs -g TEST './@(src|test)/**/*.js'",
+    "test:verbose": "mocha --inline-diffs",
+    "test:watch": "mocha -w --inline-diffs"
+  },
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshaGutmann/estqui.git"
+  },
+  "keywords": [
+    "porro",
+    "eos",
+    "tempora"
+  ],
+  "author": "BradlyOrn",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.1.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "inciduntreprehenderit": "^1.0.0",
+    "namadipisci": "^1.0.0",
+    "quisequi": "^1.0.0"
+  }
+}
